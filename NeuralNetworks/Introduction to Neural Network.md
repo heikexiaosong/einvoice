@@ -83,12 +83,3 @@ print(n.feedforward(x))    # 0.9990889488055994
 ```
 Recognize those numbers? That’s the example we just did! We get the same answer of 0.999.
 
-
-## 2. Combining Neurons into a Neural Network
-A neural network is nothing more than a bunch of neurons connected together. Here’s what a simple neural network might look like:
-![img_2.png](img_2.png)
-
-This network has 2 inputs, a hidden layer with 2 neurons (h1 and h2), and an output layer with 1 neuron (o1). 
-Notice that the inputs for o₁ are the outputs from h1 and h2 - that’s what makes this a network.
-
-> A hidden layer is any layer between the input (first) layer and output (last) layer. There can be multiple hidden layers!
